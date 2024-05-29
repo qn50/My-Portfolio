@@ -178,7 +178,13 @@ h2 {
     font-size: 20px;
     margin-left: 30px;
 }
-
+ul.no-bullets {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0; /* Remove default padding */
+}
+ul.no-bullets li {
+    margin-bottom: 5px; /* Optional: Add some space between items */
+}
 /* Recommendations */
 
 .all_recommendations {
